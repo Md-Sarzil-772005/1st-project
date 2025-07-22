@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Sarzil
+public class Calculator
 {
     public static void main(String[] args) 
     {
@@ -44,6 +44,8 @@ public class Sarzil
         System.out.println(" sin of number1 " + sin);
         System.out.println(" cos of number1 " + cos);
         System.out.println(" tan of number1 " + tan);
+
+        Scanner.close();
     }
 }
 
