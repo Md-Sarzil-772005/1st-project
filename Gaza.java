@@ -1,35 +1,50 @@
-public class Gaza 
+import java.util.Scanner;
+
+public class Sarzil
 {
     public static void main(String[] args) 
     {
-        int num1 = 16;
-        int num2 = 4;
-        double angle = 30;
+        Scanner input = new Scanner(System.in);
 
-        int sum = num1 + num2;
-        int diff = num1 - num2;
-        int prod = num1 * num2;
-        float div = (float)num1 / num2;
+        System.out.print("Enter a number: ");
+        int number1 = input.nextInt();
 
-        double power = Math.pow(num1, num2);
-        double sqrt = Math.sqrt(num1);
+        System.out.print("Enter another number: ");
+        int number2 = input.nextInt();
 
-        double radians = angle * 3.1416 / 180;
+        int addition, subtraction, multiplication;
+        float division;
+        double log1, log2, power, sqrt1, sqrt2, sin, cos, tan;
 
-        double sin = Math.sin(radians);
-        double cos = Math.cos(radians);
-        double tan = Math.tan(radians);
+        addition = number1 + number2;
+        subtraction = number1 - number2;
+        multiplication = number1 * number2;
+        division = (float) number1 / number2;
 
-        System.out.println("Sum " + sum);
-        System.out.println("Difference " + diff);
-        System.out.println("Product " + prod);
-        System.out.println("Division " + div);
-        System.out.println("power" + power);
-        System.out.println("sqrt" + sqrt);
-        System.out.println("sin " + sin);
-        System.out.println("cos " + cos);
-        System.out.println("tan " + tan);
+        log1 = Math.log(number1);
+        log2 = Math.log(number2);
+        power = Math.pow(number1, number2);
+        sqrt1 = Math.sqrt(number1);
+        sqrt2 = Math.sqrt(number2);
 
+        sin = Math.sin(Math.toRadians(number1));
+        cos = Math.cos(Math.toRadians(number1));
+        tan = Math.tan(Math.toRadians(number1));
+
+        System.out.println(" addition  " + addition);
+        System.out.println(" subtraction  " + subtraction);
+        System.out.println(" multiplication  " + multiplication);
+        System.out.println(" division  " + division);
+
+        System.out.println(" log of number1 " + log1);
+        System.out.println(" log of number2 " + log2);
+        System.out.println(" power " + power);
+        System.out.println(" square root of number1 " + sqrt1);
+        System.out.println(" square root of number2 " + sqrt2);
+        System.out.println(" sin of number1 " + sin);
+        System.out.println(" cos of number1 " + cos);
+        System.out.println(" tan of number1 " + tan);
     }
 }
+
 
