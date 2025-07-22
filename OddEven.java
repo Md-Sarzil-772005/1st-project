@@ -17,7 +17,6 @@ public class OddEven
         {
             System.out.println("It is an odd number.");
         }
-        
         scanner.close();
     }
 }
