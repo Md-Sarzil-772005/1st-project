@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class OddEvenChecker 
+public class OddEven
 {
     public static void main(String[] args) 
      {
@@ -9,9 +9,12 @@ public class OddEvenChecker
         System.out.print("Enter a number: ");
         int number = scanner.nextInt();
         
-        if (number % 2 == 0) {
+        if (number % 2 == 0) 
+        {
             System.out.println("It is even number.");
-        } else {
+        } 
+        else 
+        {
             System.out.println("It is an odd number.");
         }
         
