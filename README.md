@@ -1,10 +1,6 @@
 ### 1st-project  
 A simple Java project to print messages.  
 
-### ✨ Features  
-- Prints "Hello World!"  
-- Custom message: "Sarzl! Anan Choudhury".  
-
 ### 🚀 How to Run  
 1. Clone the repository:  
    ```bash  
